@@ -6,7 +6,7 @@ Welcome to our **Matrimonial Website** project! This is a simple yet functional 
 
 ## 📌 Project Overview
 
-This Matrimonial Website offers essential features like user registration, profile management, and partner search functionalities. It is currently running on a **localhost environment using XAMPP Server and PHPMyAdmin.**
+This Matrimonial Website offers essential features like user registration, profile management, and partner search functionalities. It is currently running on a **localhost environment using XAMPP Server, MongoDB, and PHPMyAdmin for database management.**
 
 ---
 
@@ -20,9 +20,9 @@ This is a **team project** created collaboratively by our development team. We w
 
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** PHP
-- **Database:** MongoDB
-- **Server:** XAMPP (Apache, PHP)
-- **Database Management:** PHPMyAdmin (used to manage MySQL, but MongoDB is used as the primary database in this project)
+- **Database:** MongoDB, MySQL
+- **Server:** XAMPP (Apache, PHP, MySQL)
+- **Database Management:** PHPMyAdmin
 
 ---
 
@@ -38,6 +38,16 @@ This is a **team project** created collaboratively by our development team. We w
 
 ## ⚙️ Installation & Setup
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/matrimonial-website.git
+Follow these steps to set up the project on your local machine:
+
+### 1. Install XAMPP
+- Download and install XAMPP from [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html)
+- Start the following services from the XAMPP Control Panel:
+  - **Apache**
+  - **MySQL**
+  - Ensure **MongoDB** is running on `localhost:27017`. You can use a MongoDB add-on for XAMPP or run MongoDB separately.
+
+### 2. Clone the Repository
+- Navigate to your `htdocs` directory inside the XAMPP installation:
+  ```bash
+  cd /path/to/xampp/htdocs
